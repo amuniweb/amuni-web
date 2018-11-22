@@ -1,5 +1,5 @@
 <?php 
-require_once("config.php");
+require_once("conexion2.php");
 
 $yourName = $_POST['your_name'];
 $yourEmail = $_POST['your_email'];

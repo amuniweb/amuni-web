@@ -6,7 +6,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Login Page</title>
+	<title>Inicio Sesion - WAO</title>
    <!--Made with love by Mutiullah Samim -->
    
 	<!--Bootsrap 4 CDN-->
@@ -30,19 +30,19 @@
 				</div>
 			</div>
 			<div class="card-body">
-				<form>
+				<form action="validar_login.php" method="post">
 					<div class="input-group form-group">
 						<div class="input-group-prepend">
 							<span class="input-group-text"><i class="fas fa-user"></i></span>
 						</div>
-						<input type="text" class="form-control" placeholder="usuario">
+						<input type="text" class="form-control" placeholder="usuario" name="usuario">
 						
 					</div>
 					<div class="input-group form-group">
 						<div class="input-group-prepend">
 							<span class="input-group-text"><i class="fas fa-key"></i></span>
 						</div>
-						<input type="password" class="form-control" placeholder="pass">
+						<input type="password" class="form-control" placeholder="pass" name="password">
 					</div>
 					<div class="row align-items-center remember">
 						<input type="checkbox">Recordarme
@@ -54,7 +54,7 @@
 			</div>
 			<div class="card-footer">
 				<div class="d-flex justify-content-center links">
-					¿No tienes cuenta?<a href="#">Regístrate</a>
+					¿No tienes cuenta?<a href="registro.php">Regístrate</a>
 				</div>
 				<div class="d-flex justify-content-center">
 					<a href="#">¿Has olvidado tu contraseña?</a>

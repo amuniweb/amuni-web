@@ -6,7 +6,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Register Page</title>
+	<title>Registro - WAO</title>
    <!--Made with love by Mutiullah Samim -->
    
 	<!--Bootsrap 4 CDN-->
@@ -20,9 +20,6 @@
 </head>
 <body>
 
-<?php
-//require_once 'validar.php';
-?>
 
 <div class="container">
 	<div class="d-flex justify-content-center h-100">
@@ -32,9 +29,9 @@
 				<div class="d-flex justify-content-end social_icon">
 					<span><i class="fab fa-facebook-square"></i></span>
 					<span><i class="fab fa-twitter-square"></i></span>
-				</div>   
-				<h6 style='color:red;'>*Datos Invalidos*</h6>             
-			</div>			
+				</div>
+				<h6 style='color:red;'>*Datos Invalidos*</h6>
+			</div>
 			<div class="card-body">
 			<form action="enviardatos.php" method="post" accept-charset="UTF-8">
                     <div class="input-group form-group">
@@ -70,15 +67,14 @@
 							<span class="input-group-text"><i class="fas fa-key"></i></span>
 						</div>
 						<input type="password" class="form-control" placeholder="Pass" name="password" >
-					</div>                    
-					<div class="form-group">						
+					</div>
+					<div class="form-group">
 						<input type="submit" value="Enviar" class="btn float-right login_btn">
 					</div>
 				</form>
 			</div>
-			
-		</div>		
-	</div>	
+		</div>
+	</div>
 </div>
 </body>
 </html>
