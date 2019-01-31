@@ -1,0 +1,21 @@
+.user {
+    position: absolute;
+    left: 80%;
+    top: 25px;
+}
+
+a.inicio:link, a.inicio:visited {
+    background-color: rgb(73, 180, 139);
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+  }
+  
+  
+a.inicio:hover, a.inicio:active {
+    background-color: rgb(212, 209, 209);
+    color: black;
+  }
