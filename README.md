@@ -77,7 +77,8 @@ Copyright
 
 <!--{p:style='display:none'}-->
 
-> GitHub [@rstacruz](https://github.com/rstacruz) &nbsp;&middot;&nbsp;
-> Twitter [@rstacruz](https://twitter.com/rstacruz)
+> Alex &nbsp;&middot;&nbsp;
+> Aritz &nbsp;&middot;&nbsp;
+> Unai &nbsp;&middot;&nbsp;
 
 <!--{blockquote:style='display:none'}-->
